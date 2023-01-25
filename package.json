@@ -1,0 +1,31 @@
+{
+  "name": "nextjs-mdx-pages",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "josefaidt (https://josef.dev/)",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^13.1.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@mdx-js/loader": "^2.2.1",
+    "@mdx-js/react": "^2.2.1",
+    "@next/mdx": "^13.1.5",
+    "@types/node": "^18.11.18",
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "esast-util-from-js": "^1.2.0",
+    "estree-util-visit": "^1.2.1",
+    "remark": "^14.0.2",
+    "remark-frontmatter": "^4.0.1",
+    "remark-gfm": "^3.0.1",
+    "remark-mdx-frontmatter": "^2.1.1",
+    "typescript": "^4.9.4"
+  }
+}
